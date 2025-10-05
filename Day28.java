@@ -6,10 +6,10 @@ public class OperatorPerbandingan {
         System.out.println("Nilai a = " + a);
         System.out.println("Nilai b = " + b);
 
-        Operator ==
+        //Operator ==
         System.out.println (a == b);
 
-        Operator !=
+        //Operator !=
         System.out.println (a != b);
     }
 }
