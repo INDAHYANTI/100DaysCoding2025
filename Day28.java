@@ -1,14 +1,15 @@
-public class Perbandingan {
+public class OperatorPerbandingan {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
+        int a = 5;
+        int b = 10;
 
-        // Menggunakan operator <
-            System.out.println(a + " lebih kecil dari " + b);
-        }
+        System.out.println("Nilai a = " + a);
+        System.out.println("Nilai b = " + b);
 
-        // Menggunakan operator >
-            System.out.println(b + " lebih besar dari " + a);
-        }
+        //Operator ==
+        System.out.println (a == b);
+
+        //Operator !=
+        System.out.println (a != b);
     }
 }
