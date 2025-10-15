@@ -1,16 +1,17 @@
 import java.util.Scanner;
-public class day038 {
+
+public class day38 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Masukkan suhu (°C): ");
-        int suhu = input.nextInt();
+        System.out.print("Masukkan sebuah bilangan: ");
+        int angka = input.nextInt();
 
-        if (suhu > 30) {
-            System.out.println("Panas");
-        } else if (suhu >= 20) {
-            System.out.println("Normal");
+        if (angka > 0) {
+            System.out.println("Bilangan positif");
+        } else if (angka < 0) {
+            System.out.println("Bilangan negatif");
         } else {
-            System.out.println("Dingin");
+            System.out.println("Bilangan nol");
         }
     }
 }
